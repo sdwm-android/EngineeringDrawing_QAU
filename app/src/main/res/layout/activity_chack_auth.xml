@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.CheckAuthActivity">
+
+    <include layout="@layout/nav_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="150dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="请输入授权码"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/et_auth_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingTop="50dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/teacher_refresh"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:text="刷新"-->
+<!--            android:textSize="25dp"-->
+<!--            android:onClick="teacherRefAuth"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/teacher_enter"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:text="进入主页面"-->
+<!--            android:textSize="25dp"-->
+<!--            android:onClick="teacherToMain"/>-->
+
+
+        <Button
+            android:id="@+id/bt_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape"
+            android:onClick="onChackAuth"
+            android:text="验证"
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/bt_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape"
+            android:text="退出程序"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:onClick="onClose"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

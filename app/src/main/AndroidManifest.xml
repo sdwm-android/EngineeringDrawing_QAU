@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.qau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Exercise_big_ppt" />
+        <activity android:name=".Activity.PPT_Big" />
+        <activity android:name=".Activity.Exercise_2" />
+        <activity android:name=".Login.StudentSignInActivity" />
+        <activity android:name=".Login.TeacherSignInActivity" />
+        <activity android:name=".Activity.PPT_Activity" />
+        <activity android:name=".Login.MeActivity" />
+        <activity android:name=".Page.ForumActivity" />
+        <activity android:name=".Page.TestActivity" />
+        <activity android:name=".Page.ExerciseActivity" />
+        <activity android:name=".Page.VideoActivity" />
+        <activity android:name=".Page.PptActivity" />
+        <activity android:name=".Login.TeacherCheckActivity" />
+        <activity android:name=".Login.StudentLoginActivity" />
+        <activity android:name=".Login.CheckAuthActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.PPT_Video_1_Activity" />
+        <activity android:name=".Activity.PPT_Video_2_Activity" />
+        <activity android:name=".Activity.VideoPlayActivity" />
+    </application>
+
+</manifest>

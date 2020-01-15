@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ppt"
+            android:icon="@drawable/ic_menu_ppt"
+            android:title="@string/menu_ppt" />
+<!--        <item-->
+<!--            android:id="@+id/nav_video"-->
+<!--            android:icon="@drawable/ic_menu_video"-->
+<!--            android:title="@string/menu_video" />-->
+        <item
+            android:id="@+id/nav_exercise"
+            android:icon="@drawable/ic_menu_exercise"
+            android:title="@string/menu_exercise" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_menu_test"
+            android:title="@string/menu_test" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_menu_talk"
+            android:title="@string/menu_talk" />
+    </group>
+
+</menu>

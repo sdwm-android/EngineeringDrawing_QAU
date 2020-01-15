@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">工程制图(QAU)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">做学问要在不疑处有疑，做人要在有疑处不疑。</string>
+    <string name="nav_header_subtitle">——胡适</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_ppt">课件和视频</string>
+    <string name="menu_video">视频</string>
+    <string name="menu_exercise">习题集及答案</string>
+    <string name="menu_test">题库</string>
+    <string name="menu_talk">讨论区</string>
+    <string name="title_activity_teacher_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="ch1">ch1 基本知识</string>
+    <string name="ch7">ch7 标准件与常用件</string>
+    <string name="ch8">ch8 零件图</string>
+    <string name="ch2">ch2 点直线平面的投影</string>
+    <string name="ch3">ch3 立体的投影</string>
+    <string name="ch4">ch4 组合体的视图</string>
+    <string name="ch5">ch5  轴测投影图</string>
+    <string name="ch6">ch6 图样画法</string>
+    <string name="ch9">ch9 装配图</string>
+    <string name="ch10">绪论</string>
+
+    <string name="ch1_1">表1-6六等分</string>
+    <string name="ch1_2">表1-6六等分g</string>
+    <string name="ch1_3">表1-6三等分</string>
+    <string name="ch1_4">表1-6五等分</string>
+    <string name="ch1_5">图1-1五种幅面</string>
+    <string name="ch1_6">图1-2图框</string>
+    <string name="ch1_7">图1-4</string>
+    <string name="ch1_8">图1-5</string>
+    <string name="ch1_9">图1-6</string>
+    <string name="ch1_10">图1-8尺寸组成</string>
+    <string name="ch1_11">图1-11丁字尺使用</string>
+    <string name="ch1_12">图1-13a</string>
+    <string name="ch1_13">图1-13b</string>
+    <string name="ch1_14">图1-13c</string>
+    <string name="ch1_15">图1-24斜度</string>
+    <string name="ch1_16">图1-26锥度作图</string>
+    <string name="ch1_17">图1-27圆弧连接1</string>
+    <string name="ch1_18">图1-27圆弧连接2</string>
+    <string name="ch1_19">图1-28直线圆弧连接</string>
+    <string name="ch1_20">图1-31</string>
+
+    <string name="ch7_1">6-21车内螺纹</string>
+    <string name="ch7_2">6-21车外螺纹</string>
+    <string name="ch7_3">6-攻丝</string>
+    <string name="ch7_4">7-螺钉连接</string>
+    <string name="ch7_5">7-螺栓连接</string>
+    <string name="ch7_6">7-螺柱连接</string>
+    <string name="ch7_7">7-球轴承</string>
+
+
+    <string name="ch8_1">6-82端盖</string>
+    <string name="ch8_2">6-拨叉</string>
+    <string name="ch8_3">6-箱体</string>
+    <string name="ch8_4">6-铸造</string>
+    <string name="ch8_5">箱盖</string>
+
+
+    <string name="ppt_0">ch2点直线平面的投影PPT</string>
+    <string name="ppt_1">ch3立体的投影PPT</string>
+    <string name="ppt_2">ch4组合体的视图PPT</string>
+    <string name="ppt_3">ch5轴测投影图PPT</string>
+    <string name="ppt_4">ch6图样画法PPT</string>
+    <string name="ppt_5">ch8零件图PPT </string>
+    <string name="ppt_6">ch9装配图PPT</string>
+    <string name="ppt_7">第七章:标准件与常用件PPT</string>
+    <string name="ppt_8">基本知识PPT</string>
+    <string name="ppt_9">绪论PPT</string>
+
+    <string name="do_1">第一章习题答案</string>
+    <string name="do_2">第二章习题答案</string>
+    <string name="do_3">第三章习题答案</string>
+    <string name="do_4">第四章习题答案</string>
+    <string name="do_5">第五章习题答案</string>
+    <string name="do_6">第六章习题答案</string>
+    <string name="do_7">第七章习题答案</string>
+    <string name="do_8">第八章习题答案</string>
+    <string name="do_9">第九章习题答案</string>
+    <string name="do_10">第十章习题答案</string>
+
+    <string name="content">
+        \n
+        \t\t● 学习投影法，掌握几种投影法的基本理论及其应用;\n\n
+        \t\t● 培养对三维形状及相关位置的空间逻辑思维和形象思维能力;\n\n
+        \t\t● 初步学习相关的工程制图国家标准，并掌握查阅标准零件、标准结构、公差与配合等国家或部颁标准的能力;\n\n
+        \t\t● 培养徒手绘制草图的基本能力;\n\n
+        \t\t● 培养应用计算机绘制工程图样的基本能力;\n\n
+        \t\t● 阅读工程图样的基本能力;
+
+    </string>
+</resources>
